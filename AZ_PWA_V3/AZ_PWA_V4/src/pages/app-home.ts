@@ -83,20 +83,10 @@ export class AppHome extends LitElement {
             </div>
 
             <p>
-              For more information on the PWABuilder pwa-starter, check out the
-              <a href="https://docs.pwabuilder.com/#/starter/quick-start">
-                documentation</a>.
+              Placeholder for the Popwind MT5  Multi-track Player
             </p>
 
-            <p id="mainInfo">
-              Welcome to the
-              <a href="https://pwabuilder.com">PWABuilder</a>
-              pwa-starter! Be sure to head back to
-              <a href="https://pwabuilder.com">PWABuilder</a>
-              when you are ready to ship this PWA to the Microsoft Store, Google Play
-              and the Apple App Store!
-            </p>
-
+           
             ${'share' in navigator
               ? html`<sl-button slot="footer" variant="default" @click="${this.share}">
                         <sl-icon slot="prefix" name="share"></sl-icon>
