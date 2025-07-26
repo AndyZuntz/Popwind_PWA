@@ -21,6 +21,8 @@ export default defineConfig({
         globPatterns: [
           '**/*.{html,js,css,json,png}',
         ],
+         // Add this:
+    globIgnores: ['**/staticwebapp.config.json']
       },
       injectRegister: false,
       manifest: false,
