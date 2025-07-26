@@ -21,8 +21,7 @@ export default defineConfig({
         globPatterns: [
           '**/*.{html,js,css,json,png}',
         ],
-         // Add this:
-    globIgnores: ['**/staticwebapp.config.json']
+  globIgnores: ['**/staticwebapp.config.json'] // 👈 ADD THIS LINE at CGPTS Suggestion    
       },
       injectRegister: false,
       manifest: false,
