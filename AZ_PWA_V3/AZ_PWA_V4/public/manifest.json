@@ -37,18 +37,20 @@
       "type": "image/png"
     }
   ],
-  "screenshots": [
-    {
-      "src": "assets/screenshots/screen.png",
-      "sizes": "1617x1012",
-      "type": "image/png"
-    }
-  ],
-  "features": [
-    "Cross Platform",
-    "fast",
-    "simple"
-  ],
+ "screenshots": [
+  {
+    "src": "/assets/screenshots/pwa-wide-example.png",
+    "sizes": "1280x720",
+    "type": "image/png",
+    "form_factor": "wide"
+  },
+  {
+    "src": "/assets/screenshots/pwa-narrow-example.png",
+    "sizes": "375x667",
+    "type": "image/png",
+    "form_factor": "narrow"
+  }
+],
   "categories": [
     "social"
   ],
